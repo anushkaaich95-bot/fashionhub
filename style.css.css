@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fffaf7;
+    color: #333;
+}
+
+/* Navbar */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: white;
+    border-bottom: 1px solid #eee;
+}
+
+header h1 {
+    color: #d48a8a;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #555;
+}
+
+nav a:hover {
+    color: #d48a8a;
+}
+
+/* Hero */
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    background: #fceeee;
+}
+
+.hero h2 {
+    font-size: 32px;
+}
+
+.hero button {
+    padding: 10px 20px;
+    border: none;
+    background: #d48a8a;
+    color: white;
+    cursor: pointer;
+}
+
+/* Products */
+.products {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.product-card {
+    display: inline-block;
+    width: 200px;
+    margin: 20px;
+}
+
+.product-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* About */
+.about {
+    text-align: center;
+    padding: 40px;
+    background: #f9f9f9;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: white;
+    border-top: 1px solid #eee;
+}
